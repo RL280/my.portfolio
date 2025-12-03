@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Interests</title>
+    <style>
+      .column{
+        padding:0px;
+        gap:5px;
+      }
+      .row{
+        padding:0px;
+        flex-wrap: wrap;
+        gap:20px;
+      }
+      .zoom {
+        padding:0px;
+      }
+      .gif{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header_blue">
+        <h1>My interests!</h1>
+        <p>Here you can get to know a little bit more about the things I enjoy doing on my spare time</p>
+      </div>
+      <div class="navbar">
+        <a href="../index.html">&#8634; Go back</a>
+        <a href="https://youtu.be/HG8SxLO4Qxc?si=gEMzkUA8-CG1dgJE">Here's a cool song I like!</a>
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <h2>These are the things I'm interested at</h2>
+        <p>&emsp;Most of the stuff I enjoy doing I like to do it as a hobby I enjoy making, so for instance I like baking stuff that I will eat and enjoy very much, I like to learn other languages and also I started to enjoy very much from creating websites</p>
+      </div>
+      <div class="column">
+        <div class="divisory_1_simpler">
+          <div class="row">
+            <div class="main_smaller">
+              <h2>Baking stuff</h2>
+              <p>&emsp;It started as a necessity to create a bread that I can enjoy fresh, as it was customary for me back in Brazil we would go to the baker shop in the morning and have fresh bread for us to eat, and since here in here it is not so common to have bakeries that open early here in Finland. But now it is something I see as a hobby I enjoy very much to make great tasting bread for me and some for those around me. But also I bake any other thing I feel a craving for.<br>&emsp;Here are some of the photos of stuff I've baked:</p>
+            </div>
+            <div class="column">
+              <div class="row">
+                <div class="column">
+                  <img class="zoom" alt="a pizza!" src="../media/pizza.jpg" width="200px">
+                  <p class="note_smaller">a pizza made à la brasileira!</p>
+                  <img class="zoom" alt="some pretezels!" src="../media/pretzel.jpg" width="200px">
+                  <p class="note_smaller">some pretzels I made for fun!</p>
+                </div>
+                <div class="column">
+                  <img id="bread" alt="2 unready breads" class="zoom" src="../media/bread1.jpg" width="300px">
+                  <p class="note_smaller">those were a sesame seeds and a bread with black olives!</p>
+                  <button onclick="fireBread(document.getElementById('fire'), document.getElementById('bread'))">click to fire the breads!</button>
+                  <img id="fire" alt="a campfire gif" class="gif" src="../media/campfire.gif" width="200px">
+                </div>
+                <div class="column">
+                  <img class="zoom" alt="a brownie!" src="../media/brownie.jpg" width="200px">
+                  <p class="note_smaller">here were some brownies!</p>
+                  <img class="zoom" alt="a pumpki pie!" src="../media/pumpkinpie.jpg" width="200px">
+                  <p class="note_smaller">a pumpkin pie I loved to learn to bake!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="main divisory_3_simpler">
+            <h2>Learning languages</h2>
+            <p>&emsp; I mostly do it as something on the side, considering I have to concentrate on my studies, I leave it for my spare time, nonetheless it is just something that wonders me some languages, how they sound and just trying to understand what are people talking about, or even learn what the culture of that language even is like by the way that structures are made. Recently the languages I've been trying to learn are Finnish, Mandarin and Spanish.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="main divisory_2_simpler">
+            <h2>Website creation</h2>
+            <p>&emsp;Surprisingly, just doing this assignment was what made me actually enjoy this, it is so nice just to build something and seeing it work, even though it doesn't make wonders, just seeing it work is what is making me drive head on to this assignment. I plan on making other websites, but those will only be personal passion projects.</p>
+          </div>
+        </div>
+      </div>
+      <script src="../javascript/javascript.js"></script>
+    </main>
+    <footer>
+      <div class="footer">
+        <p class="note">only@my.portfolio</p>
+      </div>
+    </footer>
+  </body>
+</html>
