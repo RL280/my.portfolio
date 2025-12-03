@@ -39,31 +39,23 @@ body {
 .header_green {
     background: #add14e;
     padding: 60px;
-    width: 100%;
-    left: 0;
 }
 
 .header_red {
     background: #F54927;
     color: white;
     padding: 60px;
-    width: 100%;
-    left: 0;
 }
 
 .header_blue {
     background: #1abc9c;
     color: white;
     padding: 60px;
-    width: 100%;
-    left: 0;
 }
 
 .header_yellow {
     background: #e2ea44;
     padding: 60px;
-    width: 100%;
-    left: 0;
 }
 
 .navbar {
